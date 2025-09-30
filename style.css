@@ -21,3 +21,39 @@ body {
 }
 
 /* this can be solved by both flex-box and grid, I will try flexbox first as I am more familiar with it. */
+
+.h-full {
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.bg-gray-500 {
+  background: var(--Teal-100);
+}
+
+.container {
+  width: min(85%, 40em);
+}
+
+.rounded-xs {
+  border-radius: 0.3em;
+}
+
+.bg-green {
+  background-color: var(--Green-400);
+}
+
+.shadow {
+  box-shadow: 2px 12px 80px 3px rgba(0, 0, 0, 0.274);
+}
