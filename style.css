@@ -1,6 +1,7 @@
 :root {
   /* Primary colors */
   --Teal-500: hsl(179, 62%, 43%);
+  --Teal-400: hsl(179, 47%, 52%);
   --Green-400: hsl(71, 73%, 54%);
 
   /* Neutral colors */
@@ -56,4 +57,36 @@ body {
 
 .shadow {
   box-shadow: 2px 12px 80px 3px rgba(0, 0, 0, 0.274);
+}
+
+.text-teal-500 {
+  color: var(--Teal-500);
+}
+
+.p-3-2 {
+  padding: 1em 1.6em;
+}
+
+.text-xl {
+  font-size: 1.4em;
+}
+
+.text-green-400 {
+  color: var(--Green-400);
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-gray-500 {
+  color: var(--Gray-500);
+}
+
+.line-16 {
+  line-height: 1.7;
+}
+
+.text-normal {
+  font-size: 0.98em;
 }
