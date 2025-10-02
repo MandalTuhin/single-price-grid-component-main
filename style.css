@@ -67,8 +67,20 @@ body {
   padding: 1em 1.6em;
 }
 
+.text-lg {
+  font-size: 1em;
+}
+
 .text-xl {
-  font-size: 1.4em;
+  font-size: 1.11rem;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.text-2xl {
+  font-size: 1.4rem;
 }
 
 .text-green-400 {
@@ -126,4 +138,36 @@ li + li {
 
 .items-stretch {
   align-items: stretch;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.py-4 {
+  padding: 1em 0;
+}
+
+.bg-green-400 {
+  background-color: var(--Green-400);
+}
+
+.border-none {
+  border: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-3xl {
+  font-size: 2.2rem;
+}
+
+.mr-2 {
+  margin-right: 0.3em;
+}
+
+.text-light {
+  opacity: 0.56;
 }
