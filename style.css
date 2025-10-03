@@ -71,6 +71,10 @@ body {
   font-size: 1em;
 }
 
+.text-mid {
+  font-size: 1.3em;
+}
+
 .text-xl {
   font-size: 1.11rem;
 }
@@ -81,6 +85,10 @@ body {
 
 .text-2xl {
   font-size: 1.4rem;
+}
+
+.my-2 {
+  margin: 1.4em 0;
 }
 
 .text-green-400 {
@@ -124,6 +132,11 @@ body {
   padding-right: 0;
 }
 
+.list {
+  margin-top: 1.3em;
+  margin-bottom: 0;
+}
+
 .list > li {
   color: var(--Teal-100);
 }
@@ -164,10 +177,38 @@ li + li {
   font-size: 2.2rem;
 }
 
+.mt-1 {
+  margin-top: 0.1em;
+}
+
+.mt-3 {
+  margin-top: 0.6em;
+}
+
+.mb-4 {
+  margin-bottom: 1.4em;
+}
+
+.my-1 {
+  margin: 0.5em 0;
+}
+
 .mr-2 {
   margin-right: 0.3em;
 }
 
 .text-light {
   opacity: 0.56;
+}
+
+.flex-auto {
+  flex: auto;
+}
+
+.flex-1 {
+  flex-grow: 1;
+}
+
+.self-stretch {
+  align-self: stretch;
 }

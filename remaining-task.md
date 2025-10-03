@@ -1,0 +1,3 @@
+- changing default margin and padding for elements.
+- colors and 0.8 changes.
+- border-radius for the last div.
