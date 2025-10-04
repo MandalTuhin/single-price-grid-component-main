@@ -7,6 +7,7 @@
   /* Neutral colors */
   --Teal-100: hsl(204, 43%, 93%);
   --Gray-500: hsl(218, 22%, 67%);
+  --Gray-700: hsl(217, 6%, 45%);
 }
 
 *,
@@ -72,7 +73,7 @@ body {
 }
 
 .text-mid {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 .text-xl {
@@ -84,7 +85,7 @@ body {
 }
 
 .text-2xl {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
 .my-2 {
@@ -101,6 +102,18 @@ body {
 
 .text-gray-500 {
   color: var(--Gray-500);
+}
+
+.text-gray-700 {
+  color: var(--Gray-700);
+}
+
+.text-teal-100 {
+  color: var(--Teal-100);
+}
+
+.text-small {
+  font-size: 0.9em;
 }
 
 .line-16 {
@@ -132,14 +145,14 @@ body {
   padding-right: 0;
 }
 
-.list {
+/* .list {
   margin-top: 1.3em;
   margin-bottom: 0;
-}
+} */
 
-.list > li {
+/* .list > li {
   color: var(--Teal-100);
-}
+} */
 
 li + li {
   margin-top: 0.3em;
@@ -206,7 +219,7 @@ li + li {
 }
 
 .flex-1 {
-  flex-grow: 1;
+  flex: 1 1 50%;
 }
 
 .self-stretch {
