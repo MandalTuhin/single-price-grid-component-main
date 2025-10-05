@@ -22,10 +22,62 @@ body {
   font-family: "Karla", sans-serif, Arial;
 }
 
+p {
+  line-height: 1.7;
+  font-size: 0.98em;
+  margin-top: 0.58em;
+}
+
 /* this can be solved by both flex-box and grid, I will try flexbox first as I am more familiar with it. */
 
-.h-full {
-  height: 100vh;
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--Teal-100);
+}
+
+.p-all {
+  padding: 1.8em 2.5em;
+}
+
+.first-section {
+  background: white;
+  border-radius: 0.5em 0.5em 0 0;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.sub-heading {
+  font-size: large;
+  margin-bottom: 0;
+  margin-top: 1.4em;
+}
+
+/*  */
+
+.wrap-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.smaller-div {
+  flex: 1 1 50%;
+  align-self: stretch;
+}
+
+.btn {
+  cursor: pointer;
+  margin-top: 0.7em;
+  margin-bottom: 0.3em;
+  border: none;
+  padding: 0.85em 0;
+  width: 100%;
+  font-size: 1em;
 }
 
 .flex {
@@ -49,7 +101,7 @@ body {
 }
 
 .rounded-xs {
-  border-radius: 0.3em;
+  border-radius: 0.5em;
 }
 
 .bg-green {
@@ -65,7 +117,7 @@ body {
 }
 
 .p-3-2 {
-  padding: 1em 1.6em;
+  padding: 1.2em 2.5em;
 }
 
 .text-lg {
@@ -73,7 +125,7 @@ body {
 }
 
 .text-mid {
-  font-size: 1.2em;
+  font-size: 1.11em;
 }
 
 .text-xl {
@@ -113,7 +165,7 @@ body {
 }
 
 .text-small {
-  font-size: 0.9em;
+  font-size: 0.87rem;
 }
 
 .line-16 {
@@ -155,7 +207,7 @@ body {
 } */
 
 li + li {
-  margin-top: 0.3em;
+  margin-top: 0.25em;
 }
 
 .flex-wrap {
@@ -187,15 +239,16 @@ li + li {
 }
 
 .text-3xl {
-  font-size: 2.2rem;
+  font-size: 2.04rem;
 }
 
 .mt-1 {
-  margin-top: 0.1em;
+  margin-top: 0.2em;
 }
 
 .mt-3 {
   margin-top: 0.6em;
+  margin-bottom: 1.05em;
 }
 
 .mb-4 {
