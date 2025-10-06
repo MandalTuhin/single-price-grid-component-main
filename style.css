@@ -29,8 +29,6 @@ p {
   margin-bottom: 1.2em;
 }
 
-/* this can be solved by both flex-box and grid, I will try flexbox first as I am more familiar with it. */
-
 main {
   display: flex;
   justify-content: center;
@@ -159,15 +157,6 @@ main {
   padding-left: 0;
   padding-right: 0;
 }
-
-/* .list {
-  margin-top: 1.3em;
-  margin-bottom: 0;
-} */
-
-/* .list > li {
-  color: var(--Teal-100);
-} */
 
 li + li {
   margin-top: 0.25em;
