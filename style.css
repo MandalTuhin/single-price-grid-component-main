@@ -82,7 +82,20 @@ main {
   width: 100%;
   font-size: 1em;
   border-radius: 0.35rem;
+  border: 1px solid transparent;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.162);
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  border: 1px solid var(--Green-400);
+  background-color: transparent;
+  color: var(--Green-400);
+}
+
+.btn:focus {
+  outline: 3px solid hsla(0, 0%, 28%, 0.535);
+  outline-offset: 1px;
 }
 
 .flex {
