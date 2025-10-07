@@ -246,3 +246,9 @@ li + li {
     font-size: 1.53rem;
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  button {
+    transition: none;
+  }
+}
