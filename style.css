@@ -245,7 +245,7 @@ li + li {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  button {
+  .btn {
     transition: none;
   }
 }
