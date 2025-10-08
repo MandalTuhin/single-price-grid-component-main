@@ -18,6 +18,18 @@
   --font-size-xl: 1.53rem;
   --font-size-3xl: 2.04rem;
 
+  /* line-height */
+  --line-height-close: 1.7;
+  --line-height-normal: 1.8;
+
+  /* border-radius */
+  --radius-xs: 0.35rem;
+  --radius-md: 0.5rem;
+
+  /* shadows */
+  --shadow-text: 1px 1px 2px rgba(0, 0, 0, 0.162);
+  --shadow-card: 2px 8px 20px 0 rgba(0, 0, 0, 0.133);
+
 }
 
 *,
@@ -33,7 +45,7 @@ body {
 }
 
 p {
-  line-height: 1.8;
+  line-height: var(--line-height-normal);
   font-size: var(--font-size-sm);
   margin-block-start: 0.58em;
   margin-block-end: 1.2em;
@@ -53,7 +65,7 @@ main {
 
 .first-section {
   background: white;
-  border-radius: 0.5rem 0.5rem 0 0;
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
 }
 
 .heading-lg {
@@ -62,7 +74,7 @@ main {
 }
 
 .sub-heading {
-  font-size: medium;
+  font-size: clamp(0.9rem, 2.5vw, 1.1rem);
   margin-block-end: 1.2em;
   margin-block-start: 1.4em;
 }
@@ -78,7 +90,7 @@ main {
 }
 
 .para {
-  font-size: 0.98rem;
+  font-size: var(--font-size-base);
 }
 
 .btn {
@@ -88,9 +100,9 @@ main {
   padding: 0.85em 0;
   width: 100%;
   font-size: 1em;
-  border-radius: 0.35rem;
+  border-radius: var(--radius-xs);
   border: 1px solid transparent;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.162);
+  text-shadow: var(--shadow-text);
   transition: all 0.3s ease;
 }
 
@@ -118,11 +130,11 @@ main {
 }
 
 .rounded-xs {
-  border-radius: 0.5rem;
+  border-radius: var(--radius-md);
 }
 
 .shadow {
-  box-shadow: 2px 8px 20px 0 rgba(0, 0, 0, 0.133);
+  box-shadow: var(--shadow-card);
 }
 
 .text-teal-500 {
@@ -212,7 +224,7 @@ li + li {
 }
 
 .right {
-  border-radius: 0 0 0.5em 0.5em;
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
 }
 
 .attribution {
@@ -227,11 +239,11 @@ li + li {
 
 @media (min-width: 43.75em) {
   .left {
-    border-radius: 0 0 0 0.5rem;
+    border-radius: 0 0 0 var(--radius-md);
   }
 
   .right {
-    border-radius: 0 0 0.5rem 0;
+    border-radius: 0 0 var(--radius-md) 0;
   }
 
   .p-all {
@@ -239,8 +251,8 @@ li + li {
   }
 
   p {
-    line-height: 1.7;
-    font-size: 0.98rem;
+    line-height: var(--line-height-close);
+    font-size: var(--font-size-base);
   }
 
   .sub-heading {
