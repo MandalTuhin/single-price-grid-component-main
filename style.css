@@ -8,6 +8,8 @@
   --Teal-100: hsl(204, 43%, 93%);
   --Gray-500: hsl(218, 22%, 67%);
   --Gray-700: hsl(217, 6%, 45%);
+
+
 }
 
 *,
@@ -181,7 +183,7 @@ li + li {
 }
 
 .text-3xl {
-  font-size: 2.04rem;
+  font-size: clamp(2rem, 5vw, 2.04rem);
 }
 
 .mt-1 {
@@ -234,13 +236,12 @@ li + li {
   }
 
   .sub-heading {
-    font-size: large;
+    font-size: clamp(0.9rem, 2.5vw, 1.13rem);
     margin-block-end: 0;
     margin-block-start: 1.4em;
   }
 
   .heading-lg {
-    font-size: 1.53rem;
     font-size: clamp(1.1rem, 3vw, 1.53rem);
   }
 }
